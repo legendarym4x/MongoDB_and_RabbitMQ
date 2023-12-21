@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "08-01"
+version = "0.1.0"
+description = ""
+authors = ["legendarym4x <maxwel842@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = {extras = ["srv", "tls"], version = "^4.6.1"}
+mongoengine = "^0.27.0"
+pika = "^1.3.2"
+redis = "^5.0.1"
+redis-lru = "^0.1.2"
+celery = "^5.3.6"
+faker = "^21.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
