@@ -18,10 +18,10 @@ Procedure:
      7. Cached the result of executing the name: and tag: commands using Redis, so that the search result is not taken from the MongoDB database, but from the cache upon repeated request.
 
 Example:
-     name: Steve Martin — find and return a list of all quotes by the author Steve Martin;
-     tag:life — find and return a list of quotes for the tag life;
-     tags:life,live — find and return a list of quotes with life or live tags (note: no spaces between life, live tags);
-     exit — end the execution of the script
+     `name: Steve Martin` — find and return a list of all quotes by the author Steve Martin;
+     `tag:life` — find and return a list of quotes for the tag life;
+     `tags:life,live` — find and return a list of quotes with life or live tags (note: no spaces between life, live tags);
+     `exit` — end the execution of the script
 
 Display search results only in utf-8 format.
 
